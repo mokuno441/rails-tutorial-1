@@ -2,7 +2,7 @@ services:
   db:
     image: postgres
     volumes:
-      - ./blog/tmp/db:/ver/lib/postgresql/data
+      - ./blog/tmp/db:/var/lib/postgresql/data
     environment:
       POSTGRES_PASSWORD: password
   web:
