@@ -17,3 +17,7 @@
 	- rake コマンドは rails コマンドに統一されたこと
 		- > Exclusive use of rails CLI over Rake
 		- https://guides.rubyonrails.org/5_0_release_notes.html
+- 発生したエラー
+    - Dockerfile などを何度もいじって挙動を確認していたところ、次のようなマウントエラーが発生したが、添付画像のボタンで clean したところ解消した
+        - https://qiita.com/sho-hata/items/579ab597e4015b9f19fe
+        - ![スクリーンショット 2022-11-29 22 31 48](https://user-images.githubusercontent.com/119154435/204542724-c1ef5e51-bc9f-40a8-a479-d7f1474bf786.png)
